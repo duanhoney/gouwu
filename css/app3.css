@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 577037 */
+  src: url('https://at.alicdn.com/t/font_577037_n2331krcgtf8yqfr.eot');
+  src: url('https://at.alicdn.com/t/font_577037_n2331krcgtf8yqfr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_577037_n2331krcgtf8yqfr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_577037_n2331krcgtf8yqfr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_577037_n2331krcgtf8yqfr.svg#iconfont') format('svg');
+}
+
+
+
+
+
+#top{
+	width: 100%;
+	height: 1.8rem;
+	background-color:#6c6155;
+	justify-content: space-around;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.top{
+	height: 0.5rem;
+	margin: 0 0.28rem;
+	/* line-height: 0.5rem; */
+
+}
+.top_dian{
+	width: 0.16rem;
+	height: 0.16rem;
+	border-radius: 0.08rem;
+	background-color: #fff;
+	margin-top: 0.17rem;
+	/* display: inline-flex; */
+	float: left;
+	margin-left: 0.03rem;
+}
+.top_dian1{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 0.07rem;
+	border: 0.03rem solid #fff;
+	margin-top: 0.18rem;
+	/* display: inline-flex; */
+	float: left;
+	margin-left: 0.03rem;
+}
+.top h1{
+	font-family: 'iconfont';
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.5rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+.top h2{
+	font-family: 'iconfont';
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.5rem;
+	margin-left: 1.3rem;
+	float: left;
+}
+.top h3{
+	font-family: 'iconfont';
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.5rem;
+	margin-right: 0.3rem;
+	float: right;
+}
+.top h4{
+	font-family: 'iconfont';
+	font-size: 0.18rem;
+	color: #fff;
+	line-height: 0.5rem;
+	margin-right: 0.3rem;
+	float: right
+}
+.top_head{
+	height: 1.3rem;
+	margin: 0.15rem 0.28rem;
+}
+.top_head h2{
+	font-size: 0.6rem;
+	float: left;
+	line-height: 1rem;
+	color: #fff;
+}
+.top_head input{
+	width: 5.2rem;
+	height: 0.7rem;
+	background-color: #fff;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	float: left;
+	margin-left: 0.9rem;
+	margin-top: 0.15rem;
+	/* overflow: hidden; */
+	background-color: #5a4a39;
+	
+	border-radius: 0.4rem;
+}
+.top_head h3{
+	font-family: 'iconfont';
+	font-size: 0.5rem;
+	float: right;
+	line-height: 0.7rem;
+	color: #fff;
+	margin-top: 0.15rem;
+	margin-right: 0.2rem;
+}
+
+
+
+
+
+
+
+#daohang{
+	width: 100%;
+	height: 1rem;
+	border-top: 0.02rem solid #EBEBEB;
+	border-bottom:  0.1rem solid #726a6a;
+}
+.daohang{
+	height: 1rem;
+	margin: 0 0.28rem;
+}
+.daohang h1{
+	font-size: 0.5rem;
+	line-height: 1rem;
+	margin-right: 0.5rem;
+	text-align: center;
+	color: #efc1a2;
+}
+
+
+
+
+
+
+#neirong{
+	width: 100%;
+	background-repeat: no-repeat;
+    background: url('../img/beijing.jpg');
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: fixed;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.8rem;
+	bottom: 1.2rem;
+	overflow-y: scroll;
+	overflow:auto; 
+	overflow-x: hidden
+}
+.neirong::-webkit-scrollbar{
+	display: none;
+}
+.zhongtu{
+	width: 100%;
+	height: 4.3rem;
+}
+.neirong_item{
+	width: 100%;
+	height: 4.7rem;
+}
+.neirong_item_a{
+	height: 1rem;
+	margin: 0 0.28rem;
+	padding-top: 0.3rem;
+	color:#a3723c; 
+	font-size: 0.5rem; 
+}
+.neirong_item_b{
+	width: 100vh;
+	height: 3.7rem;
+	border-bottom:  0.1rem solid #726a6a;
+}
+.neirong_item_bb::-webkit-scrollbar{
+	display: none;
+}
+.neirong_item_bb{
+	height: 3.3rem;
+	line-height: 3.7rem;
+	margin-left: 0.28rem;
+	margin-right: 0.28rem;
+	/* position: fixed; */
+	display: flex;
+	/* justify-content: space-around; */
+	overflow-x: scroll;
+/* 	left: 0;
+	right: 0;
+	top: 8.35rem; */
+}
+.aa{
+	width: 3.3rem;
+	height: 3.3rem;
+	float: left;
+
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	flex-shrink: 0; 
+	padding: 0.1rem;
+	overflow-x: hidden;
+}
+.neirong_item_c{
+	height: 1rem;
+	margin: 0 0.28rem;
+	padding-top: 0.3rem;
+	color:#a3723c; 
+	font-size: 0.5rem; 
+}
+.fenlei_item{
+	height: 8.3rem;
+	margin: 0.3rem 0.25rem;
+	/* margin-top: 0.5rem; */
+}
+.fenlei_left{
+	width: 49%;
+	height: 8.3rem;
+	background-color: #fff;
+	float: left;
+}
+.fenlei_left img{
+	width: auto;  /* 342px */
+    height: auto; /* 394px  */
+    max-width: 100%;  
+    max-height: 100%;  
+}
+
+.fenlei_left h2{
+	font-size: 0.38rem;  
+	line-height: 0.6rem;
+	margin-left: 0.25rem;
+	color: #3E3E3E;
+}
+.fenlei_left p{
+	font-size: 0.28rem;  
+	margin-left: 0.25rem;
+	color: #B9B9B9;
+}
+
+.fenlei_right{
+	float: right;
+}
+
+
+
+
+
+#footda{
+	background-color:#6c6155;
+	justify-content: space-around;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#foot{
+	margin: 0 0.28rem;
+	height: 1.2rem;
+}
+.foot_item{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	float: left;
+	color: #e5d8d8;
+}
+.foot_item h1{
+	font-family: 'iconfont'; 
+	font-size: 0.6rem;
+}
+.foot_item h2{ 
+	font-size: 0.2rem;
+}
+
+
+
+
